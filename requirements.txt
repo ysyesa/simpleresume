@@ -1,5 +1,5 @@
-flask==1.0.2
-flask-wtf==1.2.2
-pylint==3.3.4
-pyyaml==6.0.2
-requests==2.19.1
+flask
+flask-wtf
+pylint
+pyyaml
+requests
