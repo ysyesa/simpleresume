@@ -32,3 +32,19 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONARQUBE_TOKEN }}
           SONAR_HOST_URL: https://sonarcloud.io
+      - name: Run Sonar Quality Gate check
+        id: sonarqube-quality-gate-check
+        uses: sonarsource/sonarqube-quality-gate-action@master
+        with:
+          pollingTimeoutSec: 600
+        env:
+          SONAR_TOKEN: ${{ secrets.SONARQUBE_TOKEN }}
+          SONAR_HOST_URL: https://sonarcloud.io
+      - name: Show result
+        run: |
+          echo "Sonar Quality Gate status: ${{ steps.sonarqube-quality-gate-check.outputs.status }}"
+          echo "Sonar Quality Gate message: ${{ steps.sonarqube-quality-gate-check.outputs.message }}"
+          echo "Sonar Quality Gate passed: ${{ steps.sonarqube-quality-gate-check.outputs.passed }}"
+          echo "Sonar Quality Gate conditions: ${{ steps.sonarqube-quality-gate-check.outputs.conditions }}"
+          echo "Sonar Quality Gate error: ${{ steps.sonarqube-quality-gate-check.outputs.error }}"
+          echo "Sonar Quality Gate details: ${{ steps.sonarqube-quality-gate-check.outputs.details }}"
