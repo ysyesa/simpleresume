@@ -1,0 +1,233 @@
+john:
+  name: John Doe
+  address: 123 Main St, Anytown, USA
+  phone: 555-555-5555
+  email: johndoe@example.com
+  description: |
+    I am an experienced software engineers with a passion for building great CI/CD pipeline and automating all the
+    things. I have worked with a variety of technologies and am always looking to learn new things.
+  linkedin_url: https://linkedin.com
+  github_url: https://github.com
+  experiences:
+    - company: Galactic Tech
+      title: Software Developer
+      start_date: '2010-01-01'
+      end_date: '2012-01-01'
+      description: |
+        Focused on full-stack development for a range of internal services.
+    - company: Orion Solutions
+      title: Junior Software Engineer
+      start_date: '2012-02-01'
+      end_date: '2014-07-01'
+      description: |
+        Worked primarily on the back-end development of a major customer-facing platform.
+    - company: Nebula Corp
+      title: Software Engineer
+      start_date: '2014-08-01'
+      end_date: '2016-09-01'
+      description: |
+        Led a team in developing and deploying a high-traffic e-commerce web application.
+    - company: Star Network Services
+      title: Senior Software Engineer
+      start_date: '2016-10-01'
+      end_date: '2018-04-01'
+      description: |
+        Managed a large-scale migration of server infrastructure to the cloud.
+    - company: Pulsar Systems
+      title: Lead Software Engineer
+      start_date: '2018-05-01'
+      end_date: '2019-12-01'
+      description: |
+        Drove the design and implementation of a microservices architecture for a major tech product.
+    - company: Quasar Tech
+      title: Solutions Architect
+      start_date: '2020-01-01'
+      end_date: '2021-03-01'
+      description: |
+        Oversaw the design and implementation of technical solutions across all projects.
+    - company: Solaris Innovations
+      title: Director of Engineering
+      start_date: '2021-04-01'
+      end_date: 'Present'
+      description: |
+        Leading multiple teams in the continued development and improvement of the company's API services.
+  education:
+    - school: University of Earth
+      degree: Bachelor of Science in Computer Science
+      start_date: '2009-01-01'
+      end_date: '2013-01-01'
+    - school: High School of Earth
+      degree: High School Diploma
+      start_date: '2005-01-01'
+      end_date: '2009-01-01'
+  certifications:
+    - name: 'Microsoft Certified: Data Analyst Associate'
+      date: '2013-09-01'
+    - name: Oracle Certified Associate, Java SE 8 Programmer
+      date: '2014-05-01'
+    - name: Cisco Certified Network Professional (CCNP)
+      date: '2015-11-01'
+    - name: Certified Information Systems Security Professional (CISSP)
+      date: '2017-06-01'
+    - name: VMware Certified Professional – Cloud (VCP-Cloud)
+      date: '2018-04-01'
+    - name: Citrix Certified Associate - Networking (CCA-N)
+      date: '2018-12-01'
+    - name: Google Certified Professional Data Engineer
+      date: '2019-07-01'
+    - name: Certified Ethical Hacker (CEH)
+      date: '2020-03-01'
+
+mike:
+  name: Mike Williams
+  address: 456 Oak St, Smallville, USA
+  phone: 555-555-5556
+  email: mike.w@example.com
+  description: |
+    Dynamic project manager with a track record of leading complex, large-scale projects to completion. Expert in Agile methodologies.
+  linkedin_url: https://linkedin.com/mike
+  github_url: https://github.com/mike
+  experiences:
+    - company: QuantumSoft
+      title: Web Developer
+      start_date: '2011-06-01'
+      end_date: '2013-05-01'
+      description: |
+        Assisted in the development and maintenance of the company's website and client web applications.
+    - company: ByteBunch
+      title: Junior Java Developer
+      start_date: '2013-06-01'
+      end_date: '2015-06-01'
+      description: |
+        Worked as part of a team to deliver high-quality Java solutions for various client projects.
+    - company: PixelPerfect
+      title: UI Designer
+      start_date: '2015-07-01'
+      end_date: '2017-08-01'
+      description: |
+        Designed and implemented user-friendly UI for mobile and desktop applications.
+    - company: CodeCrafters
+      title: Frontend Developer
+      start_date: '2017-09-01'
+      end_date: '2019-07-01'
+      description: |
+        Focused on developing responsive, intuitive frontend solutions for web and mobile applications.
+    - company: DataDiggers
+      title: Data Analyst
+      start_date: '2019-08-01'
+      end_date: '2020-09-01'
+      description: |
+        Provided insightful data analysis to help steer business decision-making.
+    - company: TheCloudCo
+      title: Cloud Solutions Architect
+      start_date: '2020-10-01'
+      end_date: '2022-01-01'
+      description: |
+        Designed and deployed robust, scalable cloud-based infrastructures for various client businesses.
+    - company: CyberShield
+      title: Cybersecurity Analyst
+      start_date: '2022-02-01'
+      end_date: 'Present'
+      description: |
+        Protecting company's digital assets and data by identifying and resolving potential security breaches.
+  education:
+    - school: State University
+      degree: Master of Business Administration 
+      start_date: '2013-09-01'
+      end_date: '2015-05-01'
+    - school: City College
+      degree: Bachelor of Business Administration
+      start_date: '2009-09-01'
+      end_date: '2013-06-01'
+  certifications:
+    - name: IBM Certified Data Architect
+      date: '2013-07-01'
+    - name: Adobe Certified Expert (ACE)
+      date: '2014-10-01'
+    - name: Certified ScrumMaster (CSM)
+      date: '2015-11-01'
+    - name: Amazon Web Services (AWS) Certified Big Data - Specialty
+      date: '2017-04-01'
+    - name: Docker Certified Associate (DCA)
+      date: '2018-06-01'
+    - name: Certified in Risk and Information Systems Control (CRISC)
+      date: '2019-02-01'
+    - name: Unity Certified Game Developer
+      date: '2019-11-01'
+    - name: Advanced Networking Specialty - AWS Certified
+      date: '2020-07-01'
+
+jeff:
+  name: Jeff Thomas
+  address: 789 Pine St, Metropolis, USA
+  phone: 555-555-5557
+  email: jeff.t@example.com
+  description: |
+    Creative web developer with a strong background in HTML, CSS, and JavaScript. Adept in responsive design and UX principles.
+  linkedin_url: https://linkedin.com/jeff
+  github_url: https://github.com/jeff
+  experiences:
+    - company: Numbers Ltd
+      title: Data Analyst Intern
+      start_date: '2012-05-01'
+      end_date: '2012-09-01'
+      description: |
+        Analyzed sales data to provide actionable insights.
+    - company: Figures Inc
+      title: Junior Data Analyst
+      start_date: '2013-05-01'
+      end_date: '2014-12-31'
+      description: |
+        Developed and maintained reports and dashboards to track business metrics.
+    - company: Cognition Corp
+      title: Data Analyst
+      start_date: '2015-01-01'
+      end_date: '2016-10-30'
+      description: |
+        Used statistical techniques to develop insights from complex data sets.
+    - company: DeepThought Analytics
+      title: Senior Data Analyst
+      start_date: '2016-11-01'
+      end_date: '2018-05-01'
+      description: |
+        Led a team in interpreting data and analyzing results using statistical techniques.
+    - company: Mining Minds
+      title: Machine Learning Engineer
+      start_date: '2018-06-01'
+      end_date: '2020-05-01'
+      description: |
+        Developed machine learning algorithms to build scalable models.
+    - company: Visionary 
+      title: AI Engineer
+      start_date: '2020-06-01'
+      end_date: '2022-01-01'
+      description: |
+        Designed and developed AI models to solve complex problems.
+    - company: Pioneers in Prediction
+      title: Lead Data Scientist
+      start_date: '2022-02-01'
+      end_date: 'Present'
+      description: |
+        Leading a team of data scientists in predictive modeling and machine learning.
+  education:
+    - school: Web University
+      degree: Bachelor of Science in Web Development 
+      start_date: '2010-09-01'
+      end_date: '2014-06-01'
+  certifications:
+    - name: CompTIA Security+
+      date: '2012-04-01'
+    - name: Microsoft Certified Azure Solutions Architect Expert
+      date: '2013-10-01'
+    - name: Google Certified Professional Cloud Architect
+      date: '2015-03-01'
+    - name: Puppet Certified Professional
+      date: '2016-06-01'
+    - name: Salesforce Certified Technical Architect
+      date: '2017-09-01'
+    - name: Apple Certified Mac Technician (ACMT)
+      date: '2018-11-01'
+    - name: ISTQB Certified Tester
+      date: '2019-05-01'
+    - name: Cisco Certified Internetwork Expert (CCIE)
+      date: '2020-02-01'
