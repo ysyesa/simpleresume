@@ -1,6 +1,8 @@
 name: PR Workflow
 on:
   workflow_dispatch:
+  pull_request:
+    types: [opened]
 
 jobs:
   pr-workflow:
@@ -11,7 +13,21 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Sonarqube Scan
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip3 install -r requirements.txt
+      - name: Run unit tests
+        run: |
+          python3 tests.py
+      - name: Lint the code
+        run: |
+          pylint --rcfile pylintrc .
+      - name: Run Sonar scan
         uses: SonarSource/sonarqube-scan-action@v5.0.0
         env:
           SONAR_TOKEN: ${{ secrets.SONARQUBE_TOKEN }}
