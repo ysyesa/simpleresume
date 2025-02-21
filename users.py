@@ -21,6 +21,18 @@ class User:
         self.certifications: list   = []
 
 
+    def get_user_name(self) -> str:
+        """This function returns user's name
+        """
+        return self.name
+
+
+    def get_name(self) -> str:
+        """This function returns name
+        """
+        return self.name
+
+
     def sort_user_experience(self):
         """Sort users experience based on chronological order. The most recent experience should be first.
         """
